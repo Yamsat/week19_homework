@@ -65,20 +65,20 @@ def send_tx(coin, account, to, amount):
         signed_tx = account.sign_transaction(raw_tx)
         return network.NetworkAPI.broadcast_tx_testnet(signed_tx)
 
-# Transfer BTC0.0001 from one account to another
+# Transfer BTC0.00001 from one account to another
 btc_test = constants.BTCTEST
 priv = coins['btc-test'][0]['privkey']
 account = priv_key_to_account(btc_test, priv)
 
 to = 'mhVeFuDDLfqNBcn8ZkWYVCX7te1Nieh8my'
-send_tx(btc_test, account, to, 0.0001)
+send_tx(btc_test, account, to, 0.00001)
 
-# Transfer ETH100000000 from one account to another
+# Transfer 5000000000000000000 from one account to another
 eth = constants.ETH
 priv = coins['eth'][0]['privkey']
 account = priv_key_to_account(eth, priv)
 
 to = '0xFb86Ad9D772cfc495B04C864307Ef289c14089Cc'
-send_tx(eth, account, to, 1000000000)
+send_tx(eth, account, to, 5000000000000000000)
 
-w3.eth.getTransactionReceipt('0xe9903c388cd4f7bf7bae6cc447a165fae224cb456ea6627aafa87fa1552eb192')
+w3.eth.getTransactionReceipt('0x5856ee4c09bd3846bfbf02d840ef98731cb04c96e8d2bcb996b1aab3f64e8a32')
