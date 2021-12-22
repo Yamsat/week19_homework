@@ -11,32 +11,32 @@ In order to perform transactions we use python liblaries, web3 for Ethereum and 
 4. Execute the transaction
 
 ## Demo
-Here you transfer 0.00001BTC to an address, mhVeFuDDLfqNBcn8ZkWYVCX7te1Nieh8my from an address, mj62cZABJSaquz4Vmmpv39JfQUtUoSqpuu.
+*Here you transfer 0.00001BTC to an address, mhVeFuDDLfqNBcn8ZkWYVCX7te1Nieh8my from an address, mj62cZABJSaquz4Vmmpv39JfQUtUoSqpuu.*
 
 
 ![btc](/week19_home_work/bit_testnet_transaction_jupyter.png)
 
 
-You can see 0.00001 was transferred to mhVeFuDDLfqNBcn8ZkWYVCX7te1Nieh8my from mj62cZABJSaquz4Vmmpv39JfQUtUoSqpuu.
+*You can see 0.00001 was transferred to mhVeFuDDLfqNBcn8ZkWYVCX7te1Nieh8my from mj62cZABJSaquz4Vmmpv39JfQUtUoSqpuu.*
 
 
 ![btc_TX](/week19_home_work/bit_testnet_transaction.png)
 
 
-This time you transfer 5ETH(5000000000000000000) to 0xFb86Ad9D772cfc495B04C864307Ef289c14089Cc(Account2) from 0x419b41092f7bE9Fa9E0a15352dB9711CC51eD81C(Account1)
+*This time you transfer 5ETH(5000000000000000000) to 0xFb86Ad9D772cfc495B04C864307Ef289c14089Cc(Account2) from 0x419b41092f7bE9Fa9E0a15352dB9711CC51eD81C(Account1).*
 
 
 ![eth](/week19_home_work/eth_transaction_jupyter.png)
 
 
-Before transaction...
+*Before transaction...*
 
 
 ![eth_from_before_TX](/week19_home_work/eth_from_before.png)
 ![eth_to_before_TX](week19_home_work/eth_to_before.png)
 
 
-After transaction...
+*After transaction...*
 
 
 ![eth_from_after_TX](/week19_home_work/eth_from_after.png)
