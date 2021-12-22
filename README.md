@@ -4,7 +4,7 @@ I created a wallet which allows you to manage your crypto assets. With this wall
 I decided to use Python to create the wallet.  But unfortunatly there is no python API for HD Wallet Derive. So I use subprocess library and run a command to derive addresses from HD Wallet Derive. </br>
 In order to perform transactions we use python liblaries, web3 for Ethereum and bit for Bitcoin.  
 
-## Here is how to use the wallet.
+## How to use the wallet
 1. Get your mnemonic saves in your .env file
 2. Selct a coin and number of addresses you wish to derive
 3. Select amount of coins and a receipent you wish to send
@@ -13,6 +13,24 @@ In order to perform transactions we use python liblaries, web3 for Ethereum and 
 ## Demo
 Here you transfer 0.00001BTC to an address, mhVeFuDDLfqNBcn8ZkWYVCX7te1Nieh8my from an address, mj62cZABJSaquz4Vmmpv39JfQUtUoSqpuu.
 
-![btc]()
+![btc](/week19_home_work/bit_testnet_transaction_jupyter.png)
+
+You can see 0.00001 was transferred to mhVeFuDDLfqNBcn8ZkWYVCX7te1Nieh8my from mj62cZABJSaquz4Vmmpv39JfQUtUoSqpuu.
+
+![btc_TX](/week19_home_work/bit_testnet_transaction.png)
+
+This time you transfer 5ETH(5000000000000000000) to 0xFb86Ad9D772cfc495B04C864307Ef289c14089Cc(Account2) from 0x419b41092f7bE9Fa9E0a15352dB9711CC51eD81C(Account1)
+
+![eth](/week19_home_work/eth_transaction_jupyter.png)
+
+Before transaction...
+
+![eth_from_before_TX](/week19_home_work/eth_from_before.png)
+![eth_to_before_TX](week19_home_work/eth_to_before.png)
+
+After transaction...
+
+![eth_from_after_TX](/week19_home_work/eth_from_after.png)
+![eth_to_after_TX](week19_home_work/eth_to_after.png)
 
 
